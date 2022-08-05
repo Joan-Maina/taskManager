@@ -31,13 +31,15 @@ function Login() {
           <div className="p-2">
             <input
               type="password"
-              placeholder=" Enter your email"
+              placeholder=" Enter your password"
               className="p-2 rounded-sm"
             />
-          </div>
-          <button className="bg-[#00afef] text-slate-700 px-6 py-2 rounded-md ml-10">
-            Log In
-          </button>
+          </div>{" "}
+          <Link to="/home">
+            <button className="bg-[#00afef] text-slate-700 px-6 py-2 rounded-md ml-10">
+              Log In
+            </button>
+          </Link>
           <Link to="/register">
             <p className="ml-6">Don't have an account?</p>
           </Link>
